@@ -1,5 +1,6 @@
 import turtle
 
+#logo
 turtle.speed(1000)
 turtle.hideturtle()
 turtle.penup()
@@ -116,5 +117,28 @@ turtle.color("crimson")
 turtle.forward(38)
 turtle.write("Shop",font=("Arial",16,'bold'))
 
+#the log in box
+turtle.fillcolor("#8FD5D5")
+turtle.showturtle()
+turtle.home()
+turtle.begin_fill()
+
+turtle.left(90)
+turtle.color("#8FD5D5")
+turtle.pendown()
+turtle.forward(120)
+turtle.right(90)
+turtle.forward(40)
+turtle.left(90)
+turtle.circle(20,170)
+turtle.end_fill()
+
+turtle.showturtle()
+turtle.right(90-10)
+turtle.backward(20)
+turtle.right(90)
+turtle.forward(17)
+turtle.right(90)
+turtle.forward(100)
 ''''''
 
